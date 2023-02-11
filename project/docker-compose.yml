@@ -4,7 +4,7 @@ services:
 
   broker-service:
     build:
-      context: ./../broker
+      context: ../broker-service
     ports:
       - "8080:80"
     deploy:
